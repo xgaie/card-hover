@@ -2,10 +2,39 @@
     position: relative;
     width: 300px;
     height: 420px;
-    background-color: #fff;
+    background-color: #8656ce;
     margin: 20px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 2);
     transition: .5s ease-in-out;
+    font-size: 15px;
+    text-align: center;
+    display: table-cell;
+    color: rgb(233, 202, 255);
+
+}
+
+.read{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+
+.container:hover .card {
+    filter: blur(20px);
+    transform: scale(.9);
+    opacity: .5;
+}
+
+.container .card:hover {
+    filter: blur(0);
+    transform: scale(1);
+    opacity: 1;
+}
+
+.container .card:hover .circle {
+    clip-path: circle(600px);
 }
